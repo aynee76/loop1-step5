@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Poppins;
+}
+
+.container {
+    width: 350px;
+    height: 380px;
+    background-color: white;
+    padding: 2.5rem 2rem 2rem;
+    margin: 5rem 30rem;
+    border-radius: 4px;
+}
+
+.county {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abr {
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(74, 118, 214);
+}
+
+.line {
+    height: 5px;
+    width: 30px;
+    background-color: rgb(201, 215, 235);
+    margin-top: 0.5rem;
+}
+
+.try {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.country {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(158, 154, 154);
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.period {
+    margin-top: 3rem;
+}
+
+.text {
+    display: flex;
+    column-gap: 4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgb(196, 193, 193);
+}
+
+.num {
+    display: flex;
+    column-gap: 4.6rem;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 1rem; */
+}
+
+.detail {
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.word {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgb(196, 193, 193);
+}
+
+.data{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+    margin-top: 1rem;
+}
+
